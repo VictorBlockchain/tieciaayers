@@ -6,6 +6,7 @@ import { preloader } from '../utils/main';
 import { smoothScroll } from '../utils/main';
 import { dynamicBackground } from '../utils/main';
 import { useUser } from './UserContext';
+import Link from 'next/link';
 import Modal from './Modal';
 interface NavProps {
   handleConnect: () => void; // Define the correct type for handleConnect
@@ -150,9 +151,13 @@ const Nav = ({}) => {
                 <div className="cs-nav_in">
                 <div className="cs-nav">
                 <ul className="cs-nav_list">    
-                <li style={{fontSize:'17px'}}><a href="https://twitter.com/cutegirlwifhat" target='_blank'>Twitter</a></li>
-                <li style={{fontSize:'17px'}}><a href="https://t.me/girlwif" target='_blank'>Telegram</a></li>
-                <li style={{fontSize:'17px'}}><a href="https://dexscreener.com/solana/ADyT83nM7jmwtyJHjbBhyp6Kbgby3Lwz38o7hXSDAEo2" target='_blank'>Dex Screener</a></li>
+                <li style={{fontSize:'17px'}}><Link href="https://twitter.com/cutegirlwifhat" target='_blank' passHref>Twitter</Link></li>
+                <li style={{fontSize:'17px'}}><a href="https://t.me/girlwif" target='_blank'>Telegram</a>
+                <Link href="https://t.me/girlwif" passHref>
+                  <a target="_blank">Telegram</a>
+                </Link>
+                </li>
+                <li style={{fontSize:'17px'}}><Link href="https://dexscreener.com/solana/ADyT83nM7jmwtyJHjbBhyp6Kbgby3Lwz38o7hXSDAEo2" target='_blank' passHref>Dex Screener</Link></li>
                 </ul>
                 <span className="cs-munu_toggle"><span></span></span>
                 </div>
