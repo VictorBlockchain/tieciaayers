@@ -8,46 +8,9 @@ import Web3 from 'web3';
 import axios from "axios";
 import { Inter } from 'next/font/google'
 import Modal from './Modal';
-import { TwitterTweetEmbed } from 'react-twitter-embed';
-import { useSDK } from '@metamask/sdk-react';
-import { useUser } from './UserContext';
-import TikTokEmbed from './Tiktok';
-import { setWalletProvider, servJoin} from '../service/service';
-//mongo: FmJY5TK9tgsAJi1R
-interface StartProps {
-  user: any;
-}
+
 const Start = () => {
-  
-  const router = useRouter();
-  const { sdk, connected, connecting, provider, chainId }:any = useSDK();  
-  const { user, setUser } = useUser();
-  const [isJoinModalOpen, setIsJoinModalOpen]:any = useState(false);
-
-  useEffect(() => {
-    if (connected && user) {
-        setWalletProvider(provider);    
-    }
-  }, [user, connected]);
-  
-  
-  const handleJoinList = async (event:any) => {
-    let resp:any = await servJoin(user)
-    if(resp.status){
-
-    }
-  
-  }
-  
-  function handleJoinModal() {
-    if(isJoinModalOpen){
-      setIsJoinModalOpen(false);
-
-    }else{
-      setIsJoinModalOpen(true);
-
-    }
-  } 
+   
     return(
         <>
         
