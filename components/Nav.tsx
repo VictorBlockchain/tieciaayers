@@ -32,9 +32,9 @@ const Nav = ({}) => {
                 <div className="container-fluid">
                 <div className="cs-main_header_in">
                 <div className="cs-main_header_left">
-                <a className="cs-site_branding" href="/">
+                <Link className="cs-site_branding" href="/" passHref>
                     <span className="animated-text" style={{fontSize:'33px'}}>GirlWif.meme</span>
-                </a>
+                </Link>
                 </div>
                 <div className="cs-main_header_right">
                 <div className="cs-nav_wrap">
@@ -45,7 +45,7 @@ const Nav = ({}) => {
                 <li style={{fontSize:'17px'}}><Link href="https://twitter.com/cutegirlwifhat" target='_blank' passHref>Twitter</Link></li>
                 <li style={{fontSize:'17px'}}>
                 <Link href="https://t.me/girlwif" passHref>
-                  <a target="_blank">Telegram</a>
+                  Telegram
                 </Link>
                 </li>
                 <li style={{fontSize:'17px'}}><Link href="https://dexscreener.com/solana/ADyT83nM7jmwtyJHjbBhyp6Kbgby3Lwz38o7hXSDAEo2" target='_blank' passHref>Dex Screener</Link></li>
