@@ -12,11 +12,8 @@ interface NavProps {
   handleConnect: () => void; // Define the correct type for handleConnect
 }
 const Nav = ({}) => {
-
+    
     const router = useRouter();
-    // const { sdk, connected, connecting, provider, chainId }:any = useSDK();  
-    // const { user, setUser } = useUser();
-    // const [isChainModalOpen, setIsChainModalOpen] = useState(false);
     const [isSellModalOpen, setIsSellModalOpen] = useState(false);
     
     useEffect(() => {
@@ -26,113 +23,7 @@ const Nav = ({}) => {
         dynamicBackground();
       
       }, []);
-    
-    // useEffect(()=>{
-    //       $('.cs-tabs.cs-fade_tabs .cs-tab_links a').on('click', function (e) {
-    //       var currentAttrValue = $(this).attr('href');
-    //       $('.cs-tabs ' + currentAttrValue)
-    //         .fadeIn(400)
-    //         .siblings()
-    //         .hide();
-    //       $(this).parents('li').addClass('active').siblings().removeClass('active');
-    //       e.preventDefault();
-    //     });
-    // }, [])
 
-    useEffect(() => {
-        // Ensure that the component is mounted before using jQuery
-        $('.cs-nav').append('<span class="cs-munu_toggle"><span></span></span>');
-        $('.menu-item-has-children').append(
-          '<span class="cs-munu_dropdown_toggle"></span>'
-        );
-    
-        $('.cs-munu_toggle').on('click', function () {
-          $(this)
-            .toggleClass('cs-toggle_active')
-            .siblings('.cs-nav_list')
-            .slideToggle();
-        });
-    
-        // Clean up event listeners when the component is unmounted
-        return () => {
-          $('.cs-munu_toggle').off('click');
-        };
-      }, []); // Empty dependency array ensures this effect runs once after the initial render
-    
-      useEffect(() => {
-        const handleSearchToggle = () => {
-          $('.cs-search_wrap').toggleClass('active');
-        };
-    
-        // Attach the click event after component is mounted
-        $('.cs-mobile_search_toggle').on('click', handleSearchToggle);
-    
-        // Clean up event listener when the component is unmounted
-        return () => {
-          $('.cs-mobile_search_toggle').off('click', handleSearchToggle);
-        };
-      }, []); 
-      
-      ///0x61 testnet
-      //0x38 mainnet
-      // useEffect(() => {
-      //   let user_ = localStorage.getItem("account")
-      //   if (user_ && connected) {
-      //       sdk?.connect()
-      //       .then((account:any)=>{
-      //           if(account?.[0]){
-      //             // alert(chainId)
-      //               if(chainId!='0x38'){
-      //                   setIsChainModalOpen(true)
-      //               }else{                        
-      //               let addy = account?.[0]
-      //               localStorage.setItem("account", addy)
-      //               setUser(addy);   
-      //               setIsChainModalOpen(false)
-      //               }
-      //           }else{
-      //               // console.log('no account')
-      //           }
-      //       }).catch((error:any) => {
-      //         localStorage.setItem("account", '');
-      //         setTimeout(() => {
-      //             window.location.reload();
-      //         }, 2000);
-      //     });
-      //   }
-      // }, [provider, connected]);
-      
-      // const handleConnect = async (event:any) => {
-      //   try {
-            
-      //       event.preventDefault();
-      //       sdk?.connect()
-      //       .then((accounts:any)=>{
-      //         // console.log(accounts)
-      //         localStorage.setItem("account", accounts?.[0])
-      //         setUser(accounts?.[0]);
-  
-      //       }).catch((error:any) => {
-      //         console.log(error.message)
-      //         localStorage.setItem("account", '');
-      //         setTimeout(() => {
-      //             window.location.reload();
-      //         }, 2000);
-      //     });
-        
-      //   } catch (error) {
-      //     console.error(error);
-      //   }
-      // };
-      // function handleCloseChainModal() {
-      //   setIsChainModalOpen(false);
-      // }
-      // function handleOpenSellModal() {
-      //   setIsSellModalOpen(true);
-      // }
-      // function handleCloseSellModal() {
-      //   setIsSellModalOpen(false);
-      // }
     
     return(
         <>
@@ -152,7 +43,7 @@ const Nav = ({}) => {
                 <div className="cs-nav">
                 <ul className="cs-nav_list">    
                 <li style={{fontSize:'17px'}}><Link href="https://twitter.com/cutegirlwifhat" target='_blank' passHref>Twitter</Link></li>
-                <li style={{fontSize:'17px'}}><a href="https://t.me/girlwif" target='_blank'>Telegram</a>
+                <li style={{fontSize:'17px'}}>
                 <Link href="https://t.me/girlwif" passHref>
                   <a target="_blank">Telegram</a>
                 </Link>
