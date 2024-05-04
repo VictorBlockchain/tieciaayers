@@ -57,10 +57,10 @@ const Start = () => {
                   <p className="text-center animated-text" style={{fontSize:'33px', lineHeight:'54px'}}>Supply<br/><b>1,000,000,000</b><hr/>lp<br/> burned<hr/>2%<br/> supply burned<hr/>contract<br/>renounced<br/><span style={{fontSize:'17px'}}>DmLvpFjrD8F4MpSm2z5roiUKEtM2sumCz2R1mHNFR1UK</span></p>
                 </div>
               </div>
-
+              
               <div className="row mt-1">
                 <div className="col-lg-6 offset-lg-3">
-                <h3 className="text-center animated-text">She's Bad Ass!</h3>
+                <h3 className="text-center animated-text">She Is A Bad Ass!</h3>
                 </div>
               </div>
               <div className="row">
