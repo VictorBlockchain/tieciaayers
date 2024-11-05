@@ -10,7 +10,7 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
           <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
-          <title>Predatory, Unethical, Unprofessional Lawyer</title>
+          {/* <title>Predatory, Unethical, Unprofessional Lawyer</title> */}
           <meta name="description" content="A client experience with this predatory, unethical, unprofessional lawyer" />
           <meta name="keywords" content="tiecia ayers, houston lawyer, texas lawyer, lawyer, lawyer texas, lawyer houston, accident lawyer houston, accident lawyer texas, tiecia ayers law" />
           {/* <link
