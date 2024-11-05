@@ -3,8 +3,8 @@ import { useRouter } from 'next/router';
 import { useEffect,useState} from 'react'
 import { useSDK } from '@metamask/sdk-react';
 import { preloader } from '../utils/main';
-import { smoothScroll } from '../utils/main';
-import { dynamicBackground } from '../utils/main';
+// import { smoothScroll } from '../utils/main';
+// import { dynamicBackground } from '../utils/main';
 import { useUser } from './UserContext';
 import Link from 'next/link';
 import Modal from './Modal';
@@ -16,13 +16,13 @@ const Nav = ({}) => {
     const router = useRouter();
     const [isSellModalOpen, setIsSellModalOpen] = useState(false);
     
-    useEffect(() => {
-        // Call the preloader function
-        //preloader();
-        smoothScroll();
-        dynamicBackground();
+    // useEffect(() => {
+    //     // Call the preloader function
+    //     //preloader();
+    //     smoothScroll();
+    //     dynamicBackground();
       
-      }, []);
+    //   }, []);
 
     
     return(
