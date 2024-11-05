@@ -10,12 +10,15 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
           <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
+          <title>Predatory, Unethical, Unprofessional Lawyer</title>
+          <meta name="description" content="A client experience with this predatory, unethical, unprofessional lawyer" />
+          <meta name="keywords" content="tiecia ayers, houston lawyer, texas lawyer, lawyer, lawyer texas, lawyer houston, accident lawyer houston, accident lawyer texas, tiecia ayers law" />
           {/* <link
             href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Caveat&&family=Shadows+Into+Light&family=Alkatra&family=Comfortaa:wght@300;400;500;600&family=Delicious+Handrawn&family=Josefin+Sans:ital,wght@0,300;0,500;0,600;1,500;1,600;1,700&family=Vina+Sans&display=swap"
             rel="stylesheet"
           /> */}
           {/* <meta http-equiv="x-ua-compatible" content="ie=edge" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="viewports" content="width=device-width, initial-scale=1" />
           <meta name="author" content="ThemeMarch"></meta> */}
           
           <script
@@ -23,9 +26,10 @@ class MyDocument extends Document {
             src="/js/isotope.pkg.min.js"
           />
           <script
-            async
-            src="/js/jquery-3.6.0.min.js"
-          />
+          src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+5hb7ie1XtJ6m2TQ6ZZTV6p3mH4p0CX6Zh6JtvE5"
+          crossOrigin="anonymous"
+          ></script>
           {/* <script
             async
             src="/js/main.js"
