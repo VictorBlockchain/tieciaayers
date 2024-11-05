@@ -33,7 +33,7 @@ const Nav = ({}) => {
                 <div className="cs-main_header_in">
                 <div className="cs-main_header_left">
                 <Link className="cs-site_branding" href="/" passHref>
-                    <span className="animated-text" style={{fontSize:'33px'}}>GirlWif.meme</span>
+                    <span className="animated-text" style={{fontSize:'33px', color:'#fff'}}>Tiecia Ayers</span>
                 </Link>
                 </div>
                 <div className="cs-main_header_right">
@@ -41,7 +41,7 @@ const Nav = ({}) => {
                 <div className="cs-nav_out">
                 <div className="cs-nav_in">
                 <div className="cs-nav">
-                <ul className="cs-nav_list">    
+                {/* <ul className="cs-nav_list">    
                 <li style={{fontSize:'17px'}}><Link href="https://twitter.com/cutegirlwifhat" target='_blank' passHref>Twitter</Link></li>
                 <li style={{fontSize:'17px'}}>
                 <Link href="https://t.me/girlwif" passHref>
@@ -49,7 +49,7 @@ const Nav = ({}) => {
                 </Link>
                 </li>
                 <li style={{fontSize:'17px'}}><Link href="https://dexscreener.com/solana/ADyT83nM7jmwtyJHjbBhyp6Kbgby3Lwz38o7hXSDAEo2" target='_blank' passHref>Dex Screener</Link></li>
-                </ul>
+                </ul> */}
                 <span className="cs-munu_toggle"><span></span></span>
                 </div>
                 </div>
