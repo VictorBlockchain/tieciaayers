@@ -21,7 +21,7 @@ const Start = () => {
               <div className="row">
                 <div className="col-lg-6 offset-lg-3">
                 <Image
-                      src="/img/home_1.png"
+                      src="/img/tieciaayers.png"
                       alt="Image"
                       className="cs-zoom_item"
                       width='600'
@@ -32,7 +32,12 @@ const Start = () => {
                     }}
                       // onLoad={handleImageLoad}
                   />
-                  <h2 className="text-center pt-3"> <span className="animated-text" style={{fontSize:'54px', lineHeight:'66px'}}>Real Person <br/><br/>1st X post Meme <br/><br/>Launched within 10 mins on pump.fun<br/><br/>Girl Wif Merch&nbsp;</span></h2>
+                  <h2 className="text-center pt-3 mt-5 animated-text" style={{lineHeight:'63px'}}>
+                    - Client experience -<br/>
+                    predatory, poor communication, unprofessional<br/>
+                    She aims to collect $11,550 in fees on a $33,000 out of court settlement. She sneakily sends an email claiming lawyer fees are not part of medical expenses, and sends a document to sign that says other wise.
+                    She asked I come pick up the check, before she disclosed her total fees. This is all around unethical, predatory behavior.
+                  </h2>
                 </div>
               </div>
             </div>
@@ -45,28 +50,11 @@ const Start = () => {
                   <TikTokEmbed />
                 </div>
               </div> */}
-            
-              <div className="row mt-1">
-                <div className="col-lg-6 offset-lg-3">
-                <h3 className="text-center animated-text">Tokenomics</h3>
-                </div>
-              </div>
-              
-              <div className="row">
-                <div className="col-lg-6 offset-lg-3 ">
-                  <p className="text-center animated-text" style={{fontSize:'33px', lineHeight:'54px'}}>Supply<br/><b>1,000,000,000</b><hr/>lp<br/> burned<hr/>2%<br/> supply burned<hr/>contract<br/>renounced<br/><span style={{fontSize:'17px'}}>DmLvpFjrD8F4MpSm2z5roiUKEtM2sumCz2R1mHNFR1UK</span></p>
-                </div>
-              </div>
-              
-              <div className="row mt-1">
-                <div className="col-lg-6 offset-lg-3">
-                <h3 className="text-center animated-text">She Is A Bad Ass!</h3>
-                </div>
-              </div>
+
               <div className="row">
                 <div className="col-lg-6 offset-lg-3">
                 <Image
-                      src="/img/beerus_3.JPG"
+                      src="/img/gpt1.jpeg"
                       alt="Image"
                       className="cs-zoom_item"
                       width='600'
@@ -74,7 +62,7 @@ const Start = () => {
                       style={{borderRadius:'10px'}}
                       // onLoad={handleImageLoad}
                   />
-                  <h2 className="text-center pt-3"> <span className="animated-text" style={{fontSize:'54px', lineHeight:'66px'}}>Girl Meme Season!</span></h2>
+                  <h2 className="text-center pt-3"> <span className="animated-text" style={{fontSize:'54px', lineHeight:'66px'}}>I DO NOT recommend her services</span></h2>
                 </div>
               </div>
             </div>
